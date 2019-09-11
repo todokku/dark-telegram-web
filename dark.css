@@ -1,0 +1,430 @@
+.im_media_attach_input
+{
+  visibility: hidden;
+}
+ 
+ 
+ 
+ 
+.icon-message-status
+{
+      background: #4eabf1 !important;
+}
+ 
+html
+{
+  background-image: url(https://i.imgur.com/4MbM8DG.gif);
+  background-repeat: repeat;
+  background-color: #212121/*original: #181818*/; 
+}
+ 
+.im_page_wrap
+{
+box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.75);
+z-index: 10;
+background: #151617;
+ 
+ 
+    border-left: 0px solid #dfe5ec;
+    border-right: 0px solid #dfe5ec;
+    border-bottom: 0px solid #d2dbe3;
+}
+ 
+.im_dialogs_col_wrap
+{
+  border-right: 2px solid #6b7784;
+}
+ 
+ 
+ 
+.tg_head_split
+{
+  z-index: 20 !important;
+  background: #171c1f;
+  box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.75);
+}
+ 
+.im_message_text
+{
+  color: #d6d6d6;
+}
+ 
+.tg_page_head
+{
+  z-index: 20 !important;
+}
+ 
+ 
+.im_dialogs_col_wrap
+{
+  position: relative;
+}
+ 
+.im_dialog_peer
+{
+  color: #d9dada;
+}
+ 
+ 
+ 
+ 
+ 
+/* BUTTONS */
+ 
+ 
+ 
+/*======================= record */
+ 
+.im_record_bg
+{
+  background: transparent;
+}
+ 
+.im_record
+{
+  overflow: visible;
+}
+ 
+.im_record::before
+{
+  content: " ";
+  position: absolute;
+  background: rgba(232, 255, 233, 0);
+  width: 104%;
+  height: 0.2vh;
+  bottom: -19px;
+  transition: .5s;
+ 
+  transform: scaleX(0);
+  transform-origin: center;
+}
+ 
+.im_record:hover::before
+{
+  transition: .2s;
+  background: rgba(232, 255, 233, 1);
+  transform: scaleX(1.8);
+  transform-origin: center;
+}
+ 
+ 
+ 
+/*====================== photo */
+.im_media_attach
+{
+  overflow: visible;
+}
+ 
+.im_media_attach::before
+{
+  content: " ";
+  position: absolute;
+  background: rgba(232, 255, 233, 0);
+  width: 104%;
+  height: 0.2vh;
+  bottom: -19px;
+  transition: .5s;
+ 
+  transform: scaleX(0);
+  transform-origin: center;
+}
+ 
+.im_media_attach:hover::before
+{
+  transition: .2s;
+  background: rgba(232, 255, 233, 1);
+  transform: scaleX(1.8);
+  transform-origin: center;
+}
+ 
+ 
+ 
+/*====================== pin-doc */
+.im_attach
+{
+  overflow: visible;
+}
+ 
+.im_attach::before
+{
+  content: " ";
+  position: absolute;
+  background: rgba(232, 255, 233, 0);
+  width: 104%;
+  height: 0.2vh;
+  bottom: -19px;
+  transition: .5s;
+ 
+  transform: scaleX(0);
+  transform-origin: center;
+}
+ 
+.im_attach:hover::before
+{
+  transition: .2s;
+  background: rgba(232, 255, 233, 1);
+  transform: scaleX(1.8);
+  transform-origin: center;
+}
+ 
+ 
+ 
+ 
+/*================ icons_end */
+ 
+ 
+.composer_emoji_btn
+{
+  border-radius: 100% !important;
+}
+ 
+.composer_emoji_btn:hover
+{
+  background: #202325 !important;
+}
+ 
+ 
+.composer_rich_textarea
+{
+  color: #eff0f1;
+}
+ 
+ 
+.im_message_document_caption
+{
+  color: #d6d6d6;
+}
+ 
+.im_message_photo_caption
+{
+  color: #d6d6d6;
+}
+ 
+.im_short_message_text
+{
+  color: #eff0f1;
+}
+ 
+.im_message_webpage_description
+{
+  color: #eff0f1;
+}
+ 
+.im_message_unread_split
+{
+  color: white;
+  background: transparent;
+}
+ 
+ 
+.im_history_col .nano > .nano-pane
+{
+  background: transparent;
+}
+ 
+ 
+ 
+/* =========================== top-bar */
+ 
+/*----left*/
+ 
+.tg_head_logo_dropdown .dropdown-toggle:hover
+{
+  background: transparent;
+}
+ 
+.tg_head_logo_dropdown .dropdown-toggle::before
+{
+  content: "";
+  position: absolute;
+  background: white;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+ 
+  transition: .5s;
+  transform-origin: top;
+  transform: scaleY(0.0);
+}
+ 
+.tg_head_logo_dropdown .dropdown-toggle:hover::before
+{
+  transition: .3s;
+  transform-origin: top;
+  transform: scaleY(0.061);
+}
+ 
+ 
+ 
+/*------right*/
+ 
+.tg_head_btn:hover
+{
+  background: transparent;
+}
+ 
+/*
+.tg_head_btn::before
+{
+  content: "";
+  position: absolute;
+  background: white;
+  right: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+ 
+  transition: .5s;
+  transform-origin: top;
+  transform: scaleY(0.0);
+}
+ 
+.tg_head_btn:hover::before
+{
+  transition: .3s;
+  transform-origin: top;
+  transform: scaleY(0.061);
+}
+*/
+ 
+/*---------search*/
+.dropdown.open .tg_head_btn
+{
+  background: transparent;
+}
+ 
+/*======================== sidebar-chats */
+ 
+ 
+.im_dialog
+{
+  background: transparent !important;
+}
+/*
+.im_dialog:hover
+{
+  border-left: 3px solid white;
+}
+*/
+ 
+.im_dialog::before
+{
+  content: "";
+  position: absolute;
+  transition: .6s;
+  z-index: -1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(79, 145, 171, 1);
+ 
+  transform: scaleX(0);
+  transform-origin: left;
+  /*
+background: linear-gradient(to right, rgba(73,155,214,0.47) 0%, rgba(82,149,204,0) 6%, rgba(231,56,39,0) 100%) !important;
+  */
+  opacity: 1;
+}
+ 
+ 
+.im_dialog:hover::before
+{
+  transition: .3s;
+  opacity: 1;
+ 
+  transform: scaleX(0.01);
+  transform-origin: left;
+}
+ 
+ 
+ 
+.active::before
+{
+ 
+  transition: .3s;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  left: 0;
+  opacity: 1;
+  background: rgba(118, 207, 243, 1);
+  transform: scaleX(0.014);
+  transform-origin: left;
+ 
+ 
+  /*
+  background: linear-gradient(to right, rgba(74,161,212,0.47) 0%, rgba(94,147,190,0) 13%, rgba(231,56,39,0) 100%) !important;
+  */
+}
+ 
+ 
+.im_message_selected .im_message_outer_wrap
+{
+  background: transparent;
+ 
+}
+ 
+.im_message_selected
+{
+background: linear-gradient(to right, rgba(78, 208, 128,1) 0.7%, rgba(0,222,255,0) 0.7%, rgba(0,230,255,0) 1%);
+ 
+}
+ 
+.im_message_outer_wrap:hover
+{
+  background: transparent !important;
+}
+ 
+.im_dialogs_search_field
+{
+    border: 1px solid #080808;
+    background-color: #262829;
+}
+ 
+.im_dialogs_search_field:active
+{
+  background-color: #434648;
+}
+ 
+ 
+ 
+ 
+ 
+.im_dialog_badge_muted
+{
+ background: #383838;
+  color: #4dce64;
+  /* border: 1.5px solid white; */
+}
+
+
+
+.im_panel_peer_online
+{
+  border: 2px solid #151617;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
