@@ -1,11 +1,16 @@
+@keyframes delayedShow {
+  to {
+    visibility: visible;
+  }
+}
+
+
 .im_media_attach_input
 {
   visibility: hidden;
 }
  
- 
- 
- 
+
 .icon-message-status
 {
       background: #4eabf1 !important;
@@ -15,7 +20,7 @@ html
 {
   background-image: url(https://i.imgur.com/4MbM8DG.gif);
   background-repeat: repeat;
-  background-color: #212121/*original: #181818*/; 
+  background-color: #1f1f1f/*#181818*/; 
 }
  
 .im_page_wrap
@@ -408,17 +413,36 @@ background: linear-gradient(to right, rgba(78, 208, 128,1) 0.7%, rgba(0,222,255,
   border: 2px solid #151617;
 }
 
+
 .im_bot_intro_message_wrap /* bot intro message */
 {
   color: #eceff1;
 }
 
+.tg_head_logo_dropdown::before
+{
+  visibility: hidden;
+  content: "Dark telegram. \A last update:    12-09-2019";
+  position: absolute;
+  white-space: pre;
+  
+  width: 50%;
+  height: 80%;
+  
+  bottom: 0px;
+  right: 0px;
+  
+  background: transparent;
+  
+  color: white;
+}
 
 
-
-
-
-
+.tg_head_logo_dropdown:active::before
+{
+  animation: 0s linear 0.5s forwards delayedShow ;
+  color: white;
+}
 
 
 
