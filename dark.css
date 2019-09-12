@@ -408,6 +408,10 @@ background: linear-gradient(to right, rgba(78, 208, 128,1) 0.7%, rgba(0,222,255,
   border: 2px solid #151617;
 }
 
+.im_bot_intro_message_wrap /* bot intro message */
+{
+  color: #eceff1;
+}
 
 
 
