@@ -8,8 +8,8 @@ Last readme update: 11-09-2019
      For google Chrome I recommend 
      https://chrome.google.com/webstore/detail/user-css/okpjlejfhacmgjkmknjhadmkdbcldfcb
      
-2. - Open telegram web, click on plugin icon (Top right corner for Chrome).
-3. - Youll see a window pop out. Paste next line into it (14th line to be exactly).
+2. - Open telegram web, click on the plugin icon (Top right corner for Chrome).
+3. - You'll see a window pop out. Paste next line into it.
 
 @import url("https://dl.dropbox.com/s/tuk1t8ntvn84375/dark.css?dl=0");
 
