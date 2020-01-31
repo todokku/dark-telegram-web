@@ -18,9 +18,9 @@ Last readme update: 11-09-2019
 
 
 
-This repository is some kind of easilly viewable source.
-The reason link is heading to the dropbox is that even "raw git" doesn't give me needed result.
-For some reason, only dropbox servers could "respond" to certain requests needed for fetching code from the css file.
+This repository is some kind of easilly viewable code source.
+The reason the link is heading to the Dropbox is that even "raw git" doesn't give me needed result.
+For some reason, only Dropbox servers could "respond" to certain requests needed for fetching code from the css file.
 
 
 At the momment of (11.09.2019) NONE of the websites listed below, will work as CSS sheet host:
