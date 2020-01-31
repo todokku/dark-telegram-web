@@ -23,7 +23,7 @@ The reason link is heading to the dropbox is that even "raw git" doesn't give me
 For some reason, only dropbox servers could "respond" to certain requests needed for fetching code from the css file.
 
 
-At the momment of (11.09.2019) NONE of websites listed below, will work as CSS sheet host:
+At the momment of (11.09.2019) NONE of the websites listed below, will work as CSS sheet host:
 
 pastebin.com /
 google drive /
