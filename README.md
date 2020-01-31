@@ -25,7 +25,7 @@ For some reason, only dropbox servers could "respond" to certain requests needed
 
 At the momment of (11.09.2019) NONE of websites listed below, will work as CSS sheet host:
 
-pastebin.com
-google drive
-github
-mega.nz
+pastebin.com /
+google drive /
+github /
+mega.nz /
